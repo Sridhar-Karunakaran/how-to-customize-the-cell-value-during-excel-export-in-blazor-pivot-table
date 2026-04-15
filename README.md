@@ -1,39 +1,100 @@
-# How to customize the cell value during excel export in blazor pivot table?
+# 🔄 Blazor Pivot Table: Custom Excel Cell Value Export
 
-## Project Overview
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-7.0-512BD4.svg)](https://dotnet.microsoft.com/)
+[![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2022-5C2D91.svg)](https://visualstudio.microsoft.com/)
+[![Syncfusion](https://img.shields.io/badge/Syncfusion-Blazor%20PivotTable-FF6B35.svg)](https://www.syncfusion.com/)
 
-This Blazor project showcases techniques for enhancing the visual presentation and data formatting of cell values in a Pivot Table when exporting to Excel format. The example includes implementation patterns for applying custom formatting, data transformations, and conditional logic to cell values during the export operation.
+> **Customize cell values during Excel export** — Learn professional techniques for enhancing Pivot Table data formatting and applying custom transformations when exporting to Excel using Blazor and Syncfusion components.
 
-## Features
+## 📊 Overview
 
-- Cell value customization during Excel export
-- Blazor Pivot Table integration
-- Custom formatting implementation
-- Export functionality demonstration
-- Real-time data transformation examples
+This example demonstrates how to customize cell values in a Blazor Pivot Table during Excel export operations. Apply custom formatting, data transformations, and conditional logic to enrich exported data with dynamic calculations and styled output.
 
-## Prerequisites
+## ✨ Key Features
 
-* Visual Studio 2022
-* .NET 7.0 or later
-* Basic knowledge of Blazor and C#
-* Understanding of Pivot Table concepts
+- ✅ **Cell Value Customization**: Transform and format cell values during export
+- ✅ **Blazor Integration**: Seamless Syncfusion Pivot Table component usage
+- ✅ **Custom Formatting**: Apply number, date, and text formatting rules
+- ✅ **Data Transformation**: Real-time calculations and logic during export
+- ✅ **Export Functionality**: Direct Excel export with customized outputs
 
-## How to run the project
+## 🛠 Technology Stack
 
-* Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
-* Restore the NuGet packages by rebuilding the solution.
-* Run the project.
+- **Framework**: ASP.NET Core Blazor (Server-Side)
+- **Language**: C# 11+
+- **.NET Version**: 7.0+
+- **UI Components**: Syncfusion.Blazor.PivotTable v23.1.44
+- **Excel Engine**: Syncfusion.Blazor components
 
-## Usage
+## 📦 Installation & Quick Start
 
-The application provides a working Blazor Pivot Table component that demonstrates cell value customization. You can interact with the pivot table, modify data, and export it to Excel to see how custom cell values are applied during the export process.
+### Prerequisites
+- Visual Studio 2022 or VS Code
+- .NET 7.0 SDK or later
+- Syncfusion license (community edition available)
 
-## Configuration
+### Setup Steps
+1. Clone this repository
+2. Open `CustomizingCellValue.sln` in Visual Studio 2022
+3. Restore NuGet packages: `Right-click Solution → Restore NuGet Packages`
+4. Build the solution: `Ctrl+Shift+B`
+5. Run the project: `F5`
 
-The project is configured for .NET 7.0. Modify the `appsettings.json` and `appsettings.Development.json` files to adjust application settings as needed for your environment.
+The application launches at `http://localhost:5001`
 
-## Getting Help
+## 🚀 Usage
 
-Refer to the official Syncfusion Blazor Pivot Table documentation for more information on pivot table customization and export options. The example code is self-documented and includes comments highlighting key customization points.
+1. Interact with the Pivot Table UI
+2. Configure rows, columns, and value fields
+3. Modify cell data as needed
+4. Click **Export to Excel** to download
+5. Open the Excel file to see custom-formatted cell values
+
+## 🧩 Project Structure
+
+```
+├── Pages/
+│   ├── Index.razor          # Main Pivot Table UI
+│   └── FetchData.razor      # Data source
+├── Data/
+│   ├── WeatherForecast.cs   # Data models
+│   └── WeatherForecastService.cs
+├── appsettings.json         # Configuration
+└── Program.cs               # Startup setup
+```
+
+## 💡 Configuration
+
+Modify `appsettings.json` and `appsettings.Development.json` to customize:
+- Logging levels
+- Environment-specific settings
+- Export paths
+
+## 🆘 Troubleshooting
+
+**Pivot Table not rendering?**
+- Verify Syncfusion packages installed
+- Check browser console for errors
+
+**Export not working?**
+- Ensure export directory has write permissions
+- Confirm Syncfusion license is valid
+
+## 📚 Resources
+
+- [Syncfusion Blazor Pivot Table Docs](https://www.syncfusion.com/blazor-components/blazor-pivot-table)
+- [ASP.NET Core Blazor Guide](https://learn.microsoft.com/en-us/aspnet/core/blazor/)
+- [Project Repository](https://github.com/SyncfusionExamples/)
+
+## 🤝 Contributing
+
+Contributions welcome! Submit issues and pull requests on GitHub.
+
+## 📄 License
+
+MIT License - See LICENSE file for details
+
+## 🆘 Support
+
+Need help? Check the troubleshooting section or visit [Syncfusion Support](https://www.syncfusion.com/support/)
