@@ -1,6 +1,5 @@
 # 🔄 Blazor Pivot Table: Custom Excel Cell Value Export
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-7.0-512BD4.svg)](https://dotnet.microsoft.com/)
 [![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2022-5C2D91.svg)](https://visualstudio.microsoft.com/)
 [![Syncfusion](https://img.shields.io/badge/Syncfusion-Blazor%20PivotTable-FF6B35.svg)](https://www.syncfusion.com/)
@@ -83,7 +82,7 @@ Modify `appsettings.json` and `appsettings.Development.json` to customize:
 
 ## 📚 Resources
 
-- [Syncfusion Blazor Pivot Table Docs](https://www.syncfusion.com/blazor-components/blazor-pivot-table)
+- [Syncfusion Blazor Pivot Table Docs](https://blazor.syncfusion.com/documentation/pivot-table/getting-started)
 - [ASP.NET Core Blazor Guide](https://learn.microsoft.com/en-us/aspnet/core/blazor/)
 - [Project Repository](https://github.com/SyncfusionExamples/)
 
