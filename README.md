@@ -89,7 +89,7 @@ Modify `appsettings.json` and `appsettings.Development.json` to customize:
 
 ## 🤝 Contributing
 
-Contributions welcome! Submit issues and pull requests on GitHub.
+This project is licensed under the **Syncfusion Community License**. See [Syncfusion License](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf) for details.
 
 ## 📄 License
 
