@@ -87,13 +87,9 @@ Modify `appsettings.json` and `appsettings.Development.json` to customize:
 - [ASP.NET Core Blazor Guide](https://learn.microsoft.com/en-us/aspnet/core/blazor/)
 - [Project Repository](https://github.com/SyncfusionExamples/)
 
-## 🤝 Contributing
-
-This project is licensed under the **Syncfusion Community License**. See [Syncfusion License](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf) for details.
-
 ## 📄 License
 
-MIT License - See LICENSE file for details
+This project is licensed under the **Syncfusion Community License**. See [Syncfusion License](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf) for details.
 
 ## 🆘 Support
 
