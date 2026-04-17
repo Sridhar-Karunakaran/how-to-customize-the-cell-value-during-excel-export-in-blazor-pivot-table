@@ -1,5 +1,6 @@
 # 🔄 Blazor Pivot Table: Custom Excel Cell Value Export
 
+[![License](https://img.shields.io/badge/license-SEE%20LICENSE-blue.svg)](https://www.syncfusion.com/content/downloads/syncfusion_license.pdf)
 [![.NET](https://img.shields.io/badge/.NET-7.0-512BD4.svg)](https://dotnet.microsoft.com/)
 [![Visual Studio](https://img.shields.io/badge/Visual%20Studio-2022-5C2D91.svg)](https://visualstudio.microsoft.com/)
 [![Syncfusion](https://img.shields.io/badge/Syncfusion-Blazor%20PivotTable-FF6B35.svg)](https://www.syncfusion.com/)
